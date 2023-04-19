@@ -75,7 +75,7 @@ namespace FinalPracticeSkaffold1.Controllers
             return RedirectToAction("ViewMoviePage");
 
 
-        }
+        } 
 
         [HttpGet]
         public IActionResult Delete(int movieforumid)
